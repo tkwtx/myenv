@@ -1,0 +1,11 @@
+# -------------
+#    環境変数
+# -------------
+export LANG=ja_JP.UTF-8
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+
