@@ -27,4 +27,7 @@ source $SCRIPT_DIR/zsh/eval.zsh
 source $SCRIPT_DIR/zsh/export.zsh
 source $SCRIPT_DIR/zsh/hyper-tab-icons.zsh
 source $SCRIPT_DIR/zsh/plugins.zsh
-source $SCRIPT_DIR/zsh/p10k.zsh # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

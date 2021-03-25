@@ -1,3 +1,7 @@
-alias home='cd ~/Documents/workspace'
+alias home='cd ~/Documents/workspace.nosync'
 alias ls='lsd -la'
 alias tf='terraform'
+alias cci='circleci'
+alias cciv='circleci config validate'
+alias his='history'
+alias gmt='go mod tidy'

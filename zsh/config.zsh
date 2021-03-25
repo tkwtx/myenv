@@ -19,3 +19,5 @@ zstyle ':completion:*' group-name ''
 zstyle ':completion:*:default' menu select=2
 setopt auto_cd
 function chpwd() { ls }
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
